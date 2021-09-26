@@ -1,0 +1,101 @@
+body{
+	margin: 0px;
+}
+.menu{
+	display: flex;
+	padding: 5px;
+	justify-content: flex-end;
+}
+.button{
+	font-size: 25px;
+	color: black;
+	border: 1px solid black;
+	margin-right: 15px;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.button:hover{
+	background-color: #2e5653;
+	color: white;
+}
+header{
+	background-color: #2e5653;
+	padding: 5px;
+}
+header a{
+	color: white;
+	font-family: fantasy;
+	font-size: 30px;
+	margin-left: 50px;
+
+}
+.content{
+
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.panel{
+	padding: 5px;
+
+	width: 600px;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.panel h2{
+	text-align: center;
+	border-bottom: 3px solid black;
+	margin-bottom: 0px;
+}
+.panel>a{
+	border-bottom:1px solid black;
+	padding: 15px;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	color: black;
+	text-decoration: none;
+	max-height: 200px;
+}
+.panel>a:hover{
+	background-color:#F4FDFC;
+}
+a>img{
+	max-width: 100%;
+}
+.panel div{									
+	margin-left: 15px;
+}
+.title{
+	font-size: 25px;
+	text-decoration: underline;
+}
+.text{
+	font-size: 20px;
+}
+.newsmore{
+
+	margin: 15px;
+	text-align: center;
+}
+.newsmore a{
+	padding: 5px;
+	border: 1px solid black;
+	font-size: 20px;
+	color: black;
+}
+.newsmore a:hover{
+	background-color: #2e5653;
+	color: white;
+}
+.footer{
+	color: white;
+	background-color: #2e5653;
+	padding: 15px;
+}
+
