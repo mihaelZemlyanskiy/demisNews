@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html>
 	<head>
 		<link rel="stylesheet" href="style/style.css">
@@ -9,12 +9,12 @@
 	<body>
 
 		<div class='menu'>
-			<a href='index.php' class='button'>Главная</a>
-			<a href='news.php' class='button'>Список всех новостей</a>
-			<a href='#' class='button'>...</a>
+			<a href='/' class='button'>Главная</a>
+			<a href='/news/' class='button'>Список всех новостей</a>
+			<a href='/o-nas/' class='button'>О нас</a>
 		</div>
 
-		<header><a href='index.php'>Тестовые новости</a></header>
+		<header><a href='/'>Тестовые новости</a></header>
 		<div class=content>
 
 			<div class='panel'>
@@ -30,11 +30,7 @@
 				require_once 'function.php';
 				LastNews($arrNews);
 			?>
-				
-
-
-
-				<div class='newsmore'><a href="news.php">Еще новости</a></div>
+				<div class='newsmore'><a href="/news/">Еще новости</a></div>
 			</div>
 
 			
