@@ -112,7 +112,9 @@ a>img{
 	background-color: #2e5653;
 	color: white;
 }
-
+.newsmore a.arrow{
+	text-decoration: none;
+}
 .footer{
 	color: white;
 	background-color: #2e5653;
